@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import api from "../services/api"; // Adjust the path as per your file structure
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
@@ -13,21 +13,6 @@ const AdminAddAdvert = () => {
     city: "",
   });
 
-  const [categories, setCategories] = useState([]); // State to store categories
-
-  useEffect(() => {
-    const fetchCategories = async () => {
-      try {
-        const response = await api.get("/categories");
-        setCategories(response.data); // Store fetched categories in state
-      } catch (error) {
-        console.error("Error fetching categories:", error);
-        toast.error("Error fetching categories");
-      }
-    };
-
-    fetchCategories();
-  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

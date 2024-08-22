@@ -8,7 +8,7 @@ const EditAdvertModal = ({ isOpen, advert, onSave, onCancel }) => {
     description: "",
     price: "",
     city: "",
-    price: 0,
+    
   });
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const EditAdvertModal = ({ isOpen, advert, onSave, onCancel }) => {
         description: advert.description,
         price: advert.price,
         city: advert.city,
-        price: advert.price,
+        
       });
     }
   }, [isOpen, advert]);

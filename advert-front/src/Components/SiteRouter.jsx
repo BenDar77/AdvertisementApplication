@@ -16,7 +16,7 @@ const SiteRouter = () => {
         <Route path="/adverts" element={<AdvertList />} />
         <Route path="/addAdvert" element={<AdminAddAdvert/>}/>
         <Route path="/addCategory" element={<AdminAddCategory/>}/>
-        <Route path="*" element={<Navigate to="/login" />} />
+        <Route path="*" element={<Navigate to="/adverts" />} />
         <Route path="/linkAdvert" element={<LinkAdvertToCategory/>}/>
       </Routes>
     </BrowserRouter>
