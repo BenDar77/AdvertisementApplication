@@ -6,5 +6,10 @@ GET, POST, PUT, DELETE advert
 GET, POST, PUT, DELETE categories
 PUT, DELETE advert-categories rysys.
 
+http://localhost:8080/h2-console
+
+username: sa
+password: nera
+
 
 
