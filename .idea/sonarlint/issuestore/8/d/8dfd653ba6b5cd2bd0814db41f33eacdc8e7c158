@@ -1,0 +1,5 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë„ºıÿÿÿÿ8İş™°…2J$fa29ef50-fa38-4fd2-bd60-4f0bcace4be8
+”	java:S116"RRename this field "Service" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÊòü8Íƒ€±…2J$fd08c589-9db2-473f-8c88-144a78cfa606
+H
+java:S1068"+Remove this unused "Service" private field.(ÖÊòü8ƒÚ±…2
